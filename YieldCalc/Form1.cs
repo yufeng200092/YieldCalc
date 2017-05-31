@@ -23,13 +23,14 @@ namespace YieldCalc
             dtData.Columns.Add("Date", typeof(DateTime));
             dtData.Columns.Add("Money", typeof(double));
 
-            //dtData.ReadXml(Path.Combine(Environment.CurrentDirectory + "Data.xml"));
-            dtData.Rows.Add(new DateTime(2017, 5, 26), 295.2);
-            dtData.Rows.Add(new DateTime(2017, 5, 13), 315.2);
-            dtData.Rows.Add(new DateTime(2017, 5, 13), 100);
-            dtData.Rows.Add(new DateTime(2017, 5, 14), 630);
-            dtData.Rows.Add(new DateTime(2017, 5, 21), 315.2);
-            dtData.Rows.Add(new DateTime(2017, 5, 24), 315.2);
+            try
+            {
+                dtData.ReadXml(Path.Combine(Environment.CurrentDirectory, "Data.xml"));
+            }
+            catch
+            {
+
+            }
 
             this.dataGridView1.DataSource = dtData;
         }

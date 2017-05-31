@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<Data>
+  <Rate>
+    <Date>2017-05-13T00:00:00+08:00</Date>
+    <Money>415.2</Money>
+  </Rate>
+  <Rate>
+    <Date>2017-05-14T00:00:00+08:00</Date>
+    <Money>630.4</Money>
+  </Rate>
+  <Rate>
+    <Date>2017-05-21T00:00:00+08:00</Date>
+    <Money>315.2</Money>
+  </Rate>
+  <Rate>
+    <Date>2017-05-24T00:00:00+08:00</Date>
+    <Money>315.2</Money>
+  </Rate>
+  <Rate>
+    <Date>2017-05-26T00:00:00+08:00</Date>
+    <Money>295.2</Money>
+  </Rate>
+  <Rate>
+    <Date>2017-05-29T00:00:00+08:00</Date>
+    <Money>315.2</Money>
+  </Rate>
+  <Return>
+    <Value>8.63</Value>
+  </Return>
+</Data>
